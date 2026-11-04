@@ -18,6 +18,8 @@ Public UI lab. Overlay harness loads ThePlaceholderText home options in an ifram
 
 ## Promote
 
-Cloud-only Done: GitHub Actions **Promote test-random-ui-ux** (`confirm_production=promote-production`). Worker name `test-random-ui-ux` on `workers.dev`.
+Cloud-only Done: GitHub Actions **Promote test-random-ui-ux** (`confirm_production=promote-production`).
+
+Lab: https://test-random-ui-ux.joshdwall.workers.dev/
 
 Copy a winner into `joshdwall/theplaceholdersite-business` `public/index.html` + `public/theme/moss.css` by hand after you pick an example. Do not point this Worker at theplaceholdertext.com.
