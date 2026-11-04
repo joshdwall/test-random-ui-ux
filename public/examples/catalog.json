@@ -1,0 +1,35 @@
+{
+  "defaultId": "tpt-02",
+  "examples": [
+    {
+      "id": "tpt-01",
+      "title": "01 — Control (current live)",
+      "path": "/examples/tpt-01/",
+      "notes": "Snapshot of the current home: brand size and position as shipped on theplaceholdertext.com."
+    },
+    {
+      "id": "tpt-02",
+      "title": "02 — Larger, lower",
+      "path": "/examples/tpt-02/",
+      "notes": "Wordmark slightly larger. Brand and subtitle sit lower on the photo."
+    },
+    {
+      "id": "tpt-03",
+      "title": "03 — Moss brand",
+      "path": "/examples/tpt-03/",
+      "notes": "Larger and lower, with the wordmark in moss green so it reads as the logo."
+    },
+    {
+      "id": "tpt-04",
+      "title": "04 — Heavy white",
+      "path": "/examples/tpt-04/",
+      "notes": "Larger and lower, extra-bold white wordmark with a soft shadow."
+    },
+    {
+      "id": "tpt-05",
+      "title": "05 — Split tone",
+      "path": "/examples/tpt-05/",
+      "notes": "Larger and lower. ThePlaceholder stays white; Text is moss."
+    }
+  ]
+}

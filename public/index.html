@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>ThePlaceholderText UI lab</title>
+    <link rel="stylesheet" href="/harness/harness.css" />
+  </head>
+  <body>
+    <iframe id="stage" class="stage" title="Example under test"></iframe>
+
+    <button type="button" class="burger" id="burger" aria-expanded="false" aria-controls="drawer">
+      <span class="burger-bars" aria-hidden="true"></span>
+      <span class="sr">Open lab menu</span>
+    </button>
+
+    <aside id="drawer" class="drawer" hidden>
+      <header class="drawer-head">
+        <p class="drawer-kicker">ThePlaceholderText lab</p>
+        <button type="button" class="drawer-close" id="drawer-close">Close</button>
+      </header>
+      <p class="drawer-note" id="example-note"></p>
+      <ul class="drawer-list" id="example-list"></ul>
+      <p class="drawer-foot">Overlay only. The page in the frame is a separate document. Prev / next and this list change which example loads.</p>
+    </aside>
+
+    <button type="button" class="step step-prev" id="prev" aria-label="Previous example">‹</button>
+    <button type="button" class="step step-next" id="next" aria-label="Next example">›</button>
+    <p class="step-label" id="step-label"></p>
+
+    <script type="module" src="/harness/harness.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+/* Lab-only logo treatments. Cards and contact stay on the shipped grid. */
+
+body.v-lower .hero-stage {
+  padding-top: 4.75rem;
+}
+
+body.v-larger .hero-brand {
+  font-size: clamp(3.1rem, 7.2vw, 5.8rem);
+}
+
+body.v-moss .hero-brand {
+  color: #9ddead;
+}
+
+body.v-bold .hero-brand {
+  font-weight: 800;
+  letter-spacing: -0.065em;
+  text-shadow: 0 2px 22px rgba(0, 0, 0, 0.55);
+}
+
+body.v-split .brand-b {
+  color: #8fd0a4;
+}
