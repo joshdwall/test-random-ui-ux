@@ -1,6 +1,6 @@
 {
   "site": "test-random-ui-ux",
-  "publicUrl": "https://test-random-ui-ux.workers.dev/",
+  "publicUrl": "https://test-random-ui-ux.joshdwall.workers.dev/",
   "workerName": "test-random-ui-ux",
   "infisical": {
     "projectId": "41982513-3430-4531-a227-9aa124fe024d",
